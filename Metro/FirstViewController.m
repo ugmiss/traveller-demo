@@ -41,6 +41,7 @@
     self.tabBarController.tabBar.hidden=YES;
     [super viewDidLoad];
     [self setTitle:@"登山者"];
+    ///sssss
     [self initView];
     if ([CMAltimeter isRelativeAltitudeAvailable]) {
         self.altimeter = [[CMAltimeter alloc] init];
