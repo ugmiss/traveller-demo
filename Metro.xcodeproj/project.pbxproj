@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F83EDB2D1A381986004532E8 /* ScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EDB2C1A381986004532E8 /* ScreenViewController.m */; };
+		F83EDB311A39454A004532E8 /* ScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EDB301A39454A004532E8 /* ScreenView.m */; };
 		F8EB301D1A1AEFE300CD162B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB301C1A1AEFE300CD162B /* main.m */; };
 		F8EB30201A1AEFE300CD162B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB301F1A1AEFE300CD162B /* AppDelegate.m */; };
 		F8EB30231A1AEFE300CD162B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB30221A1AEFE300CD162B /* FirstViewController.m */; };
-		F8EB30261A1AEFE300CD162B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB30251A1AEFE300CD162B /* SecondViewController.m */; };
 		F8EB30291A1AEFE300CD162B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EB30271A1AEFE300CD162B /* Main.storyboard */; };
 		F8EB302B1A1AEFE300CD162B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EB302A1A1AEFE300CD162B /* Images.xcassets */; };
-		F8EB302E1A1AEFE300CD162B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8EB302C1A1AEFE300CD162B /* LaunchScreen.xib */; };
 		F8EB303A1A1AEFE300CD162B /* MetroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB30391A1AEFE300CD162B /* MetroTests.m */; };
+		F8EB30491A259C3A00CD162B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EB30481A259C3A00CD162B /* CoreMotion.framework */; };
+		F8FC2EAC1A319B8100A16E8D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FC2EAB1A319B8100A16E8D /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F83EDB2B1A381986004532E8 /* ScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenViewController.h; sourceTree = "<group>"; };
+		F83EDB2C1A381986004532E8 /* ScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenViewController.m; sourceTree = "<group>"; };
+		F83EDB2E1A381A61004532E8 /* Method.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Method.h; sourceTree = "<group>"; };
+		F83EDB2F1A39454A004532E8 /* ScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenView.h; sourceTree = "<group>"; };
+		F83EDB301A39454A004532E8 /* ScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenView.m; sourceTree = "<group>"; };
 		F8EB30171A1AEFE300CD162B /* Metro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EB301B1A1AEFE300CD162B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8EB301C1A1AEFE300CD162B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,14 +42,16 @@
 		F8EB301F1A1AEFE300CD162B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F8EB30211A1AEFE300CD162B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		F8EB30221A1AEFE300CD162B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		F8EB30241A1AEFE300CD162B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		F8EB30251A1AEFE300CD162B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F8EB30281A1AEFE300CD162B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8EB302A1A1AEFE300CD162B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F8EB302D1A1AEFE300CD162B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F8EB30331A1AEFE300CD162B /* MetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EB30381A1AEFE300CD162B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8EB30391A1AEFE300CD162B /* MetroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetroTests.m; sourceTree = "<group>"; };
+		F8EB30431A1AF4A800CD162B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F8EB30441A1AF4CA00CD162B /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F8EB30481A259C3A00CD162B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F8FC2EAA1A319B8100A16E8D /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F8FC2EAB1A319B8100A16E8D /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8EB30491A259C3A00CD162B /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,7 @@
 		F8EB300E1A1AEFE300CD162B = {
 			isa = PBXGroup;
 			children = (
+				F8EB30481A259C3A00CD162B /* CoreMotion.framework */,
 				F8EB30191A1AEFE300CD162B /* Metro */,
 				F8EB30361A1AEFE300CD162B /* MetroTests */,
 				F8EB30181A1AEFE300CD162B /* Products */,
@@ -84,15 +95,18 @@
 		F8EB30191A1AEFE300CD162B /* Metro */ = {
 			isa = PBXGroup;
 			children = (
+				F8FC2EAA1A319B8100A16E8D /* MapViewController.h */,
+				F8FC2EAB1A319B8100A16E8D /* MapViewController.m */,
+				F83EDB2F1A39454A004532E8 /* ScreenView.h */,
+				F83EDB301A39454A004532E8 /* ScreenView.m */,
+				F83EDB2B1A381986004532E8 /* ScreenViewController.h */,
+				F83EDB2C1A381986004532E8 /* ScreenViewController.m */,
 				F8EB301E1A1AEFE300CD162B /* AppDelegate.h */,
 				F8EB301F1A1AEFE300CD162B /* AppDelegate.m */,
 				F8EB30211A1AEFE300CD162B /* FirstViewController.h */,
 				F8EB30221A1AEFE300CD162B /* FirstViewController.m */,
-				F8EB30241A1AEFE300CD162B /* SecondViewController.h */,
-				F8EB30251A1AEFE300CD162B /* SecondViewController.m */,
 				F8EB30271A1AEFE300CD162B /* Main.storyboard */,
 				F8EB302A1A1AEFE300CD162B /* Images.xcassets */,
-				F8EB302C1A1AEFE300CD162B /* LaunchScreen.xib */,
 				F8EB301A1A1AEFE300CD162B /* Supporting Files */,
 			);
 			path = Metro;
@@ -103,6 +117,9 @@
 			children = (
 				F8EB301B1A1AEFE300CD162B /* Info.plist */,
 				F8EB301C1A1AEFE300CD162B /* main.m */,
+				F8EB30431A1AF4A800CD162B /* PrefixHeader.pch */,
+				F8EB30441A1AF4CA00CD162B /* Header.h */,
+				F83EDB2E1A381A61004532E8 /* Method.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -205,7 +222,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8EB30291A1AEFE300CD162B /* Main.storyboard in Resources */,
-				F8EB302E1A1AEFE300CD162B /* LaunchScreen.xib in Resources */,
 				F8EB302B1A1AEFE300CD162B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,9 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8EB30261A1AEFE300CD162B /* SecondViewController.m in Sources */,
 				F8EB30201A1AEFE300CD162B /* AppDelegate.m in Sources */,
+				F8FC2EAC1A319B8100A16E8D /* MapViewController.m in Sources */,
+				F83EDB311A39454A004532E8 /* ScreenView.m in Sources */,
 				F8EB30231A1AEFE300CD162B /* FirstViewController.m in Sources */,
+				F83EDB2D1A381986004532E8 /* ScreenViewController.m in Sources */,
 				F8EB301D1A1AEFE300CD162B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,14 +274,6 @@
 				F8EB30281A1AEFE300CD162B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F8EB302C1A1AEFE300CD162B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8EB302D1A1AEFE300CD162B /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -349,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Metro/PrefixHeader.pch;
 				INFOPLIST_FILE = Metro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Metro/PrefixHeader.pch;
 				INFOPLIST_FILE = Metro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +430,7 @@
 				F8EB303F1A1AEFE300CD162B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8EB30401A1AEFE300CD162B /* Build configuration list for PBXNativeTarget "MetroTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				F8EB30421A1AEFE300CD162B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

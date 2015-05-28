@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@import CoreMotion;
+@interface FirstViewController : UIViewController<UIScrollViewDelegate>
+{
+    UILabel *altitudeLabel;
+    UILabel *pressureLabel;
+    UILabel *timestampLabel;
+}
 
-@interface FirstViewController : UIViewController
+@property (nonatomic, strong) CMAltimeter *altimeter;
 
 
 @end

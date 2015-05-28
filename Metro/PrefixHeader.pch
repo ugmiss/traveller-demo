@@ -1,0 +1,12 @@
+//
+//  PrefixHeader.pch
+//  Metro
+//
+//  Created by Ace on 14/11/18.
+//  Copyright (c) 2014年 com.hujao. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import "Header.h"
+#import "Method.h"
+#endif
